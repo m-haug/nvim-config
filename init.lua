@@ -171,6 +171,9 @@ do
   -- instead raise a dialog asking if you wish to save the current file(s)
   -- See `:help 'confirm'`
   vim.o.confirm = true
+
+  -- enable exec mode for project-specific init files
+  vim.o.exrc = true
 end
 
 -- ============================================================
