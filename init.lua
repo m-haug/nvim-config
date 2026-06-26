@@ -737,6 +737,10 @@ do
         },
       },
     },
+
+    pylsp = {},
+
+    ruff = {},
   }
 
   vim.pack.add {
